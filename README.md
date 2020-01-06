@@ -12,7 +12,7 @@ Seats can be unbooked by clicking the booked seat again.
 
 ## Run on your machine
 
-First setup config.json file with all your credentials.
+First setup config.json file with all your credentials. Import mysql database 'cinema_tkt'
 Get packages if missing in folder github.com
 
 Set up variables GOROOT, GOPATH and PATH and build project by following command in terminal, this will create an executable build file. To see output run executable file
