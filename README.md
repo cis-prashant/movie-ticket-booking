@@ -12,8 +12,18 @@ Seats can be unbooked by clicking the booked seat again.
 
 ## Run on your machine
 
-First setup config.json file with all your credentials. Import mysql database 'cinema_tkt'
-Get packages if missing in folder github.com
+First setup config.json file with all your credentials. Import mysql database 'cinema_tkt'.
+
+Install dependencies packages by following commands
+
+    go get github.com/acoshift/flash
+    go get github.com/codegangsta/negroni
+    go get github.com/go-sql-driver/mysql
+    go get github.com/gorilla/mux
+    go get github.com/gorilla/sessions
+    go get github.com/jmoiron/sqlx
+
+
 
 Set up variables GOROOT, GOPATH and PATH and build project by following command in terminal, this will create an executable build file. To see output run executable file
 
