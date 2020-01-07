@@ -2,13 +2,13 @@
     "GOPORT": "7000",
     "ELOGFILE": "elog.txt",
     "DOMAINNAME" : "https://localhost",
-    "db_user" : "root",
-    "db_password" : "root",
-    "db_host" : "127.0.0.1:3306",
+    "db_user" : "YOUR_DB_USER",
+    "db_password" : "YOUR_DB_PASSWORD",
+    "db_host" : "YOUR_DB_HOST:PORT",
     "db": "cinema_tkt",
     "TYPE": "mysql",
-    "SmtpPassword": "your-smtp-password",
-    "MailFrom": "mail-from",
-    "SmtpHost": "Emtp Host",
-    "SmtpPort": "Port"
+    "SmtpPassword": "YOUR_SMTP_PASSWORD",
+    "MailFrom": "MAIL_FROM",
+    "SmtpHost": "SMTP_HOST",
+    "SmtpPort": "SMTP_PORT"
 }

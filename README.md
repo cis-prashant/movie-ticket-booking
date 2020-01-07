@@ -35,6 +35,6 @@ then visit in browser
 
     http://localhost:7000/
 
-For test cases run this command
+## For test cases run this command
 
     go test -v
